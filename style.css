@@ -1,0 +1,59 @@
+* {
+ font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #f0f0f0;
+}
+
+.container {
+ background: white;
+ width: 75%;
+ align-content: center;
+ justify-content: center;
+ padding-top: 20px;
+ height:200px;
+}
+
+input {
+ margin-bottom: 7px;
+ width: 65%;
+}
+
+.take-value input {
+ display: flex;
+ justify-self: center;
+ align-self: center;
+ padding: 8px;
+ font-size: 16px;
+ box-shadow: 3px 4px 0px 0px black;
+}
+
+.display {
+  margin-top: 15px;
+ display: flex;
+ flex-direction: row;
+ justify-self: center;
+ 
+}
+
+.display button {
+padding: 10px 20px;
+font-size: 16px;
+ cursor: pointer;
+}
+
+button{
+  margin:10px;
+}
+
+#displayVal {
+ align-self: center;
+ justify-self:center;
+ margin-top: 16px;
+ font-weight: bold;
+ color: #333;
+}
